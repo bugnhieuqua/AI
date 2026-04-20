@@ -1,0 +1,21 @@
+Máy chủ đã được khởi động và đang lắng nghe ở địa chỉ: http://localhost:3000
+
+---
+
+Đây là một ví dụ về kết quả bạn có thể nhận được từ máy chủ AI khi bạn gửi cho nó một lời nhắc.
+
+Lời nhắc đã gửi:
+"Xin chào"
+
+Kết quả trả về từ AI:
+{"output":[{"content":[{"text":"AI đã nhận được: \"Xin chào\""}]}]}
+
+---
+
+Các lệnh để quản lý máy chủ:
+
+Lệnh để chạy máy chủ (chạy trong terminal của bạn):
+node server.js
+
+Lệnh để dừng máy chủ (chạy trong terminal PowerShell):
+Stop-Process -Name "node" -Force
